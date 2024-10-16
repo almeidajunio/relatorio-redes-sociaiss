@@ -1,0 +1,50 @@
+:root{
+    --roxo: #cf96e9;
+    --azul: #88dbf0;
+    --preto: #000000;
+    --rosa: #d326a8;
+    font: ;
+}
+
+
+body{
+    background-color: var(--roxo);
+    color: var(--preto);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: var(--rosa);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--azul);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav.a.haver{
+    text-decoration: underline;
+    transform: scale(0,90);
+    transform: transform(0.1s);
+}
+
+
